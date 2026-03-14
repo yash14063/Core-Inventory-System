@@ -4,10 +4,13 @@ The system replaces manual registers, Excel sheets, and fragmented tracking meth
 
 This project was developed as part of a hackathon project to demonstrate modern warehouse and inventory management practices.
 
+
 Features
 Authentication Module
 
 Users can securely access the system using authentication.
+
+
 
 Features:
 
@@ -20,6 +23,8 @@ OTP-based password reset
 JWT authentication
 
 Role-based access
+
+
 
 User Roles:
 
@@ -60,6 +65,8 @@ Inventory movement trends
 Warehouse stock comparison
 
 Dynamic Filters
+
+
 
 Filter data by:
 
@@ -135,6 +142,8 @@ Address
 
 Location Structure
 
+
+
 Each warehouse can contain locations such as:
 
 Rack A
@@ -163,6 +172,8 @@ Validate receipt
 
 After validation, stock increases automatically.
 
+
+
 Example:
 
 Receive 50 Steel Rods
@@ -189,6 +200,8 @@ Validate delivery
 
 After validation, stock decreases automatically.
 
+
+
 Example:
 
 Deliver 10 Chairs
@@ -200,6 +213,8 @@ Chairs → -10
 Internal Transfers
 
 Move stock between warehouses or locations.
+
+
 
 Examples:
 
@@ -232,6 +247,7 @@ Enter counted quantity
 System updates stock automatically
 
 Adjustment logged in ledger
+
 
 Example:
 
@@ -289,6 +305,8 @@ Search & Filters
 
 Smart filters allow quick access to data.
 
+
+
 Search by:
 
 SKU
@@ -331,6 +349,8 @@ Logout
 Database Design
 
 The system uses normalized relational tables.
+
+
 
 Main tables:
 
@@ -397,6 +417,8 @@ Stock Ledger
 All APIs follow RESTful naming conventions.
 
 Project Structure
+
+
 
 Based on your current project:
 
