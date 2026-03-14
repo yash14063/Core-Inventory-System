@@ -4,8 +4,8 @@ The system replaces manual registers, Excel sheets, and fragmented tracking meth
 
 This project was developed as part of a hackathon project to demonstrate modern warehouse and inventory management practices.
 
-🚀 Features
-🔐 Authentication Module
+Features
+Authentication Module
 
 Users can securely access the system using authentication.
 
@@ -33,7 +33,7 @@ Limited operational permissions
 
 After login, users are redirected to the Inventory Dashboard.
 
-📊 Dashboard Module
+Dashboard Module
 
 The dashboard provides a real-time overview of inventory operations.
 
@@ -89,7 +89,7 @@ Warehouse
 
 Product Category
 
-📦 Product Management
+Product Management
 
 Manage all products stored in warehouses.
 
@@ -121,7 +121,7 @@ Stock tracking per warehouse location
 
 Low stock alerts
 
-🏬 Warehouse Management
+Warehouse Management
 
 The system supports multiple warehouses and storage locations.
 
@@ -147,7 +147,7 @@ Shelf 2
 
 Stock is tracked per location inside each warehouse.
 
-📥 Receipts (Incoming Goods)
+Receipts (Incoming Goods)
 
 Used when products arrive from suppliers.
 
@@ -171,7 +171,7 @@ Stock becomes:
 
 Steel Rods → +50
 
-📤 Delivery Orders (Outgoing Goods)
+Delivery Orders (Outgoing Goods)
 
 Used when products are shipped to customers.
 
@@ -197,7 +197,7 @@ Stock becomes:
 
 Chairs → -10
 
-🔄 Internal Transfers
+Internal Transfers
 
 Move stock between warehouses or locations.
 
@@ -213,7 +213,7 @@ Total stock remains the same, but location changes.
 
 All transfers are recorded in the system.
 
-⚖️ Stock Adjustments
+Stock Adjustments
 
 Used to fix differences between:
 
@@ -243,7 +243,7 @@ Adjustment:
 
 Stock → -3
 
-📜 Move History / Stock Ledger
+Move History / Stock Ledger
 
 Every inventory movement is recorded in the Stock Ledger.
 
@@ -273,7 +273,7 @@ User performing action
 
 This ensures full traceability of inventory movements.
 
-🚨 Alerts
+Alerts
 
 The system generates alerts for:
 
@@ -285,7 +285,7 @@ Pending deliveries
 
 Pending receipts
 
-🔍 Search & Filters
+Search & Filters
 
 Smart filters allow quick access to data.
 
@@ -299,7 +299,7 @@ Warehouse
 
 Stock status
 
-🧭 Application Navigation
+Application Navigation
 Sidebar Menu
 
 Dashboard
@@ -328,7 +328,7 @@ My Profile
 
 Logout
 
-🗄 Database Design
+Database Design
 
 The system uses normalized relational tables.
 
@@ -364,7 +364,7 @@ Stock Ledger
 
 Each table uses foreign key relationships for data integrity.
 
-🔌 API Endpoints
+API Endpoints
 
 REST APIs are used for backend communication.
 
@@ -396,7 +396,7 @@ Stock Ledger
 
 All APIs follow RESTful naming conventions.
 
-🏗 Project Structure
+Project Structure
 
 Based on your current project:
 
